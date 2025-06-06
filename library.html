@@ -1,0 +1,609 @@
+<!-- Final Project
+Requirements
+[  ] Customized HTML Page #1
+[  ] Customized HTML Page #2 
+[  ] Customized HTML Page #3
+[  ] Customized HTML Page #4
+
+Select ONE Additional Feature to Add  
+[ no ] Feature 1 - Google Font
+[ no ] Feature 2 - Upload a Font
+[ no ] Feature 3 - Include jQuery
+[ no ] Feature 4 - Embed Code from Spotify/Google Docs/YouTube
+[ no ] Feature 5 - Customized HTML Page #5
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Final Project</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* Styling Only Related To THIS Page */
+      /*~~~~~ Taken From:
+      https://www.w3schools.com/howto/howto_css_parallax.asp*/
+      
+      .profile-container {
+        display: flex;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+      }
+      
+      .profile {
+        border-radius: 5px;
+        border: 2px solid #9B7EBD;
+      }
+      
+        .rating {
+        text-align: center;
+        font-family: "DynaPuff", system-ui;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+        color: #F4C95D;
+        font-size: 30px;
+      }
+      
+       .rating-container {
+        display: flex;
+        height: 0px;
+        justify-content: space-evenly;
+        align-items: center;
+       gap: -50px -50px;
+      }
+      
+      body {
+        background-image: url("https://cdn.glitch.global/ba7a89c1-35ae-41b8-85b8-10e958ecbf37/IMG_3540.jpeg?v=1748006212504");
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      min-height: 600px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+      }
+      
+        .profile:hover {
+        transform: scale(
+          1.1
+        ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- ⬆⬆⬆⬆ Nav Bar -->
+    <ul class="nav">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="library.html">My Library</a></li>
+      <li><a href="art.html">To Be Read</a></li>
+      <li><a href="resume.html">Statistics</a></li>
+      <li style="float: right">
+        <a target="_blank" href=""
+          ><img
+            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
+            style="width: 25px; margin: -5px"
+        /></a>
+      </li>
+      <li style="float: right">
+        <a target="_blank" href=""
+          ><img
+            src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
+            style="width: 25px; margin: -5px"
+        /></a>
+      </li>
+    </ul>
+    
+
+    <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
+    
+    <div class="profile-container">
+     
+        <img
+          class="profile"
+          src="https://cdn.glitch.global/ba7a89c1-35ae-41b8-85b8-10e958ecbf37/IMG_3538.jpeg?v=1748006003106"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://cdn.glitch.global/ba7a89c1-35ae-41b8-85b8-10e958ecbf37/IMG_3541.jpeg?v=1748006374647"
+          width="150"
+      />
+      
+       <img
+          class="profile"
+          src="https://cdn.glitch.global/ba7a89c1-35ae-41b8-85b8-10e958ecbf37/IMG_3542.jpeg?v=1748006504671"
+          width="150"
+      />
+      
+      
+      <img
+          class="profile"
+          src="https://covers.shakespeareandcompany.com/97815293/9781529380941.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/81eZMptKtbL.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/91EHaC+M-RL.jpg"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/61su39k8NUL._AC_UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+    </div>
+    
+    <div class="rating-container">
+    
+    <h3 class="rating"> 
+  ★★★★★
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★★★
+      </h3>
+      
+       <h3 class="rating"> 
+★★★★★
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★★★☆
+      </h3>
+      
+      
+     <h3 class="rating"> 
+ ★★★★☆
+      </h3>   
+      
+         <h3 class="rating"> 
+  ★★★★★
+      </h3> 
+      
+      
+      
+    </div>
+    
+    <div class="profile-container">
+     
+        <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/81RxMMXUnFL.jpg"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/71z6jM7ddrL._AC_UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+       <img
+          class="profile"
+          src="https://books.google.com/books/content?id=yOmT_qjVTosC&pg=PA1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3xP31k9auz5ggZ4_f_kZ684EeYsg&w=1280"
+          width="150"
+      />
+      
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/61QIExCWnTL.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/812+3DpNEXL._UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/81sK0G5cHsL.jpg"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/81Q0i1dgx3L._UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+    </div>
+    
+      <div class="rating-container">
+    
+    <h3 class="rating"> 
+  ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★★☆☆
+      </h3>
+      
+      
+     <h3 class="rating"> 
+ ★★★★☆
+      </h3>   
+      
+         <h3 class="rating"> 
+  ★★★☆☆
+      </h3>
+        
+    </div>
+    
+     <div class="profile-container">
+     
+        <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/81pxJE6xSZL.jpg"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://books.google.com/books/publisher/content?id=wZ-CDwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0Xtp1EBA7ci4eCX8OXZ3DQjAzhQg&w=1280"
+          width="150"
+      />
+      
+       <img
+          class="profile"
+          src="https://books.google.com/books/publisher/content?id=H1mgDwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1IbpisCOprd4-5Xgex8Wi4cfsDYg&w=1280"
+          width="150"
+      />
+      
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/911Pwk1-WEL.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/A14Q7VUgMsL._AC_UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/91mCD+HErbL.jpg"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/91nGoCptgmL._AC_UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+    </div>
+    
+       <div class="rating-container">
+    
+    <h3 class="rating"> 
+  ★★★★★
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+★★★☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★★★★
+      </h3>
+      
+      
+     <h3 class="rating"> 
+ ★★★★☆
+      </h3>   
+      
+         <h3 class="rating"> 
+  ★★★★★
+      </h3>
+        
+    </div>
+    
+        <div class="profile-container">
+     
+        <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/91VnZ4QDALL.jpg"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://images.booksense.com/images/926/250/9781250250926.jpg"
+          width="150"
+      />
+      
+       <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/81k8YGJINwL._AC_UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+      
+      <img
+          class="profile"
+          src="https://mpd-biblio-covers.imgix.net/9781250866929.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/71j25Ib5FSL._AC_UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://vader-prod.s3.amazonaws.com/1656096453-51ky4TIb1bL._SL500_.jpg"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/71Yikzkkk4L.jpg"
+          width="150"
+      />
+      
+    </div>
+
+           <div class="rating-container">
+    
+    <h3 class="rating"> 
+  ★★★☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★☆☆☆
+      </h3>
+      
+      
+     <h3 class="rating"> 
+ ★★☆☆☆
+      </h3>   
+      
+         <h3 class="rating"> 
+  ★☆☆☆☆
+      </h3>
+        
+    </div>
+    
+       <div class="profile-container">
+     
+        <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/91L7BkXI5oL._AC_UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://images.penguinrandomhouse.com/cover/9786073848824"
+          width="150"
+      />
+      
+       <img
+          class="profile"
+          src="https://toppsta.com/images/covers/0/1/2/6/9781398530126.webp?t=1734404705"
+          width="150"
+      />
+      
+      
+      <img
+          class="profile"
+          src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665955461/fearless-9781665955461.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOzQt8D_MlN4Zf8JgyvYx09OJdlYSZuiersA&s"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://books.google.com/books/publisher/content?id=xIS9EAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3eCIUUuATE0NCqhk27MxM55cIB6A&w=1280"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/91rcGxdclIL._UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+    </div>
+    
+     <div class="rating-container">
+    
+    <h3 class="rating"> 
+  ★★☆☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★☆☆☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★★☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★★★☆
+      </h3>
+      
+      
+     <h3 class="rating"> 
+ ★★★☆☆
+      </h3>   
+      
+         <h3 class="rating"> 
+  ★★★☆☆
+      </h3>
+        
+    </div>
+    
+    <div class="profile-container">
+     
+        <img
+          class="profile"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0A4sSOHnu_pK4bH2_furfUytDJStUuInpQ&s"
+          width="150"
+      />
+      
+      
+       <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/812XbpMDovL.jpg"
+          width="150"
+      />
+      
+       <img
+          class="profile"
+          src="https://prodimage.images-bn.com/pimages/9781635575606_p0_v6_s600x595.jpg"
+          width="150"
+      />
+      
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/81lbIOH6GiL._UF1000,1000_QL80_DpWeblab_.jpg"
+          width="150"
+      />
+      
+      <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/91Yx43Yd5eL._AC_UF1000,1000_QL80_.jpg"
+          width="150"
+      />
+      
+     <img
+          class="profile"
+          src="https://m.media-amazon.com/images/I/713zSD+zGWL.jpg"
+          width="150"
+      />
+      
+       <img
+          class="profile"
+          src="https://cdn1.bookmanager.com/i/m?b=jpo2KjG8N1WaqeGaNDfKgQ&cb=1682732087"
+          width="150"
+      />
+      
+    </div>
+    
+     <div class="rating-container">
+    
+    <h3 class="rating"> 
+  ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+  ★★★★☆
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★☆☆☆
+      </h3>
+      
+       <h3 class="rating"> 
+ ★★★☆☆
+      </h3>
+       
+        <h3 class="rating"> 
+ ★★★★☆
+      </h3> 
+       
+       <h3 class="rating"> 
+ ★★★★☆
+      </h3> 
+      
+        
+    </div>
+    
+    
+  </body>
+</html>
