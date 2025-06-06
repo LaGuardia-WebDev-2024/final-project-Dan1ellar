@@ -18,17 +18,30 @@ Select ONE Additional Feature to Add
   <head>
     <meta charset="utf-8" />
     <title>Final Project</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bonbon&display=swap" rel="stylesheet">    
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
       /*~~~~~ Taken From:
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
-      .parallax {
+      body {
         /* The image used */
-        background-image: url("https://cdn.glitch.global/66249578-345e-4e9c-8fac-cabe98f682e4/image0.jpeg?v=1747657278943");
+        background-image: url("https://cdn.glitch.global/ba7a89c1-35ae-41b8-85b8-10e958ecbf37/IMG_3532.webp?v=1747933061161");
 
         /* Set a specific height */
-        min-height: 500px;
+        min-height: 900px;
 
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
@@ -37,16 +50,15 @@ Select ONE Additional Feature to Add
         background-size: cover;
       }
       .textblock {
-        min-height: 500px;
-        background-color: black;
-        color: white;
+        min-height: 400px;
+        background-color: #9B7EBD;
       }
       .parent-flex {
         display: flex;
       }
       .child-flex {
         background-color: green;
-        margin: 30px;
+        margin: 100px;
         padding: 10px;
         text-align: justify;
         width: 40%;
@@ -55,15 +67,50 @@ Select ONE Additional Feature to Add
         display: flex;
         align-items: center;
       }
+      
+      .title {
+        color: white;
+  text-align: center;
+  padding: 300px 16px;
+  text-decoration: none;
+   font-family: "Bonbon", cursive;
+  font-weight: 400;
+  font-style: normal;
+        font-size: 50px;
+
+      }
+      
+      h2 {
+        color: white;
+        width: 100%;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  padding: 20px 16px;
+      }
+      
+       h4 {
+        color: white;
+        width: 100%;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  padding:  20px;
+      }
+      
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul class="nav">
       <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a href="library.html">My Library</a></li>
+      <li><a href="art.html">To Be Read</a></li>
+      <li><a href="resume.html">Statistics</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -79,34 +126,69 @@ Select ONE Additional Feature to Add
         /></a>
       </li>
     </ul>
+    
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2024-2025</h1>
-    <div class="parallax"></div>
+    
 
-    <div class="textblock parent-flex">
-      <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
-      <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
+    <h1 class="title">
+      ˗ˏˋ Daniella's Books ˎˊ˗
+      
+    </h1>
+    
+    <div class="textblock">
+      
+     <h2>
+       A website all about my reading ✮⋆˙
+      </h2>
+      
+      <h4>
+        My Rating Key:
+        <br>
+        <br>
+      ★☆☆☆☆ - Not a single part of this book was enjoyed
+        <br>
+        <br>
+      ★★☆☆☆ - Maybe there was potential but was not enjoyed
+        <br>
+        <br>
+      ★★★☆☆ - The middle ground, not great but also not horrible
+         <br>
+        <br>
+      ★★★★☆ - A good book! Still not my favorite
+                 <br>
+        <br>
+      ★★★★★ - Perfect, not a single complaint
+      </h4>
+      
+      
     </div>
+
+    
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+    
+    $("").animate(
+      {width:"310px",
+      marginLeft:"30px",
+      borderWidth:"20px",},
+      2500
+    )
+    
+      $("h2").animate(
+        {marginLeft:"20px",
+        fontSize:"30px",},
+        3000
+      )
+      
+       $("h4").animate(
+        {marginLeft:"20px",
+        fontSize:"20px",},
+        3000
+      )
+    
+    
+    </script>
   </body>
 </html>

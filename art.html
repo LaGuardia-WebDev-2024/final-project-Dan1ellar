@@ -4,11 +4,20 @@
     <meta charset="utf-8" />
     <title>Final Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    
     <style>
       /* Styling Only Related To THIS Page */
       .parent-flex {
         display: flex;
-        background-color: purple;
+     
         justify-content: space-around;
         padding: 10px;
         margin-bottom: 20px;
@@ -16,17 +25,49 @@
 
       .parent-flex img {
         max-width: 30%;
-        border-radius: 10px;
+        border-radius: 5px;
       }
+      
+      body {
+        background-image: url("https://i.pinimg.com/736x/6e/b9/74/6eb97482a17766e899c67c9872ca838c.jpg");
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      min-height: 600px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+  h1 {color: white;
+  width: 100%;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;}
+      
+       .profile:hover {
+        transform: scale(
+          1.1
+        ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      
+      .profile {
+        border-radius: 5px;
+        border: 2px solid #9B7EBD;
+      }
+      
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a class="active" href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a href="library.html">My Library</a></li>
+      <li><a class="active" href="art.html">To Be Read</a></li>
+      <li><a href="resume.html">Statistics</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -43,24 +84,152 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>My Art</h1>
+    <h1>Up next...</h1>
 
     <div class="parent-flex">
       <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+        class="profile"
+          src="https://books.google.com/books/publisher/content?id=m74IEQAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1ZjJT-V7WD3i0irpxGOSqmtEKRqw&w=1280"
+          height="300"
       />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
+     
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/71emSYFwwqL.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://images.booksense.com/images/597/434/9780358434597.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM58fTOlmrEB6XYZuyqpGzA-vFWGoc9KQG_65K1Bw80UzvFO0AtMmQaWdYDD5HBL_RRb8&usqp=CAU"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/81wGzzxqHSL.jpg"
+          height="300"
       />
     </div>
 
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+            <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/61HFDxBnhxL.jpg"
+          height="300"
       />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
+     
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/61W1x76tDWL._AC_UF1000,1000_QL80_.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/91tK5sU9oOL._AC_UF1000,1000_QL80_.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/91JLRCeFvfL.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/81PKwC6wjmS.jpg"
+          height="300"
       />
     </div>
+    
+      <div class="parent-flex">
+            <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/913MlIBrvSL._AC_UF1000,1000_QL80_DpWeblab_.jpg"
+          height="300"
+      />
+     
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/81SsXgrqItL._AC_UF1000,1000_QL80_.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://prodimage.images-bn.com/pimages/9781639730957_p0_v4_s600x595.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673566594i/76705490.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/91qQyYDgTZL.jpg"
+          height="300"
+      />
+    </div>
+    
+    <div class="parent-flex">
+            <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/81wSbu3wm9L.jpg"
+          height="300"
+      />
+     
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/81zK1zGt82L._AC_UF1000,1000_QL80_.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/91l3PmBlSrL.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/91bprM0ad4L._UF1000,1000_QL80_.jpg"
+          height="300"
+      />
+      
+         <img
+        class="profile"
+          src="https://m.media-amazon.com/images/I/91NKvBRoAyL.jpg"
+          height="300"
+      />
+    </div>
+    
+    
+    
+     <script src="https://m.media-amazon.com/images/I/810Mc+mhE3S.jpg"></script>
+    <script>
+    
+    $("h1").animate(
+        {marginLeft:"20px",
+        fontSize:"50px",},
+        3000
+      )
+    
+    </script>
+    
   </body>
 </html>
